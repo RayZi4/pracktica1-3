@@ -1,0 +1,120 @@
+@import url("./fonts.css");
+
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+
+header .section{
+    background: url(../img/BG.svg);
+    background-size: cover;
+    height: 1107px;
+    display: flex;
+    margin-bottom: 30px;
+}
+header .section .romb{
+    height: 977px;
+    width: 400px;
+    position: absolute;
+    left: -100px;
+    top: -100px;
+}
+header .section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .section .container .head{
+    display: flex;
+    width: 70%;
+    height: 106px;
+    align-items: center;
+}
+header .section .container .main{
+    display: flex;
+    align-items: center;
+    height: 844px;
+    width: 1200px;
+}
+header .head .col{
+    display: flex;
+    justify-content: center;
+    align-self: start;
+}
+header .head h4{
+    font-size: 20px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+    color: #F87932;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.234);
+    transition: padding-top .3s linear;
+    font-weight: 700;
+}
+header .head .col img{
+    background-color: #FFFFFF;
+    padding: 40px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-end-end-radius: 10px;
+    border-end-start-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.234);
+}
+@media (min-width: 720px){
+header .head h4:hover{
+    padding-top: 40px;
+}
+}
+header .main h1{
+    font-size: 80px;
+    color: #39BFA7;
+    font-family: 'Merriweather';
+    margin-bottom: 0%;
+    font-weight: 700;
+}
+header .main .second{
+    color: #F87932;
+}
+header .main .button{
+    background: #F87932;
+    color: #FFFFFF;
+    border: none;
+    font-weight: 700;
+}
+header .main .button:hover{
+    box-shadow: 0px 3px 5px rgba(255, 255, 255, 0.392);
+}
+header .main .col img:nth-child(1){
+    position: absolute;
+    top: 210px;
+    right: 350px;
+}
+header .main .col img:nth-child(2){
+    position: absolute;
+    top: 700px;
+    right: 450px;
+    width: 162px;
+}
+header .main .col img:nth-child(3){
+    position: absolute;
+    top: 430px;
+    right: 200px;
+}
+header .main .col img:nth-child(4){
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+header .main .col img:nth-child(5){
+    position: absolute;
+    top: 540px;
+    right: 220px;
+}
+header .main .col img:nth-child(6){
+    position: absolute;
+    top: 630px;
+    right: 640px;
+}
