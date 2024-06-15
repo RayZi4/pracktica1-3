@@ -118,3 +118,94 @@ header .main .col img:nth-child(6){
     top: 630px;
     right: 640px;
 }
+
+.news .container .images .grid{
+    display: grid;
+    grid-template-rows: repeat(2, 274px);
+    grid-template-columns: repeat(4, 277px);
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+}
+.news .container .images .grid img:nth-child(1){
+    grid-row: 1/2;
+    grid-column: 1/1;
+}
+.news .container .images .grid img:nth-child(2){
+    grid-row: 2/2;
+    grid-column: 2/2;
+}
+.news .container .images .grid img:nth-child(3){
+    grid-row: 1/1;
+    grid-column: 3/4;
+}
+.news .container .images .grid img:nth-child(4){
+    grid-row: 1/1;
+    grid-column: 2/2;
+}
+.news .container .images .grid img:nth-child(5){
+    grid-row: 2/2;
+    grid-column: 3/3;
+}
+.news .container .images .grid img:nth-child(6){
+    grid-row: 2/2;
+    grid-column: 4/4;
+}
+.news .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button{
+    margin-top: 62px;
+    width: 206px;
+    height: 62px;
+    border: 2px solid #222222;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #222222;
+    font-weight: 700;
+}
+.button{
+    background: linear-gradient(to left, #FFFFFF 0%, #FFFFFF 50%, #F87932 50%, #F87932 100%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: background-position 0.3s;
+}
+@media (min-width: 720px){
+.button:hover{
+    background-position:0 0;
+    color: #FFFFFF;
+}
+}
+.news .container h1{
+    font-size: 48px;
+    color: #222222;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+.news .container h2{
+    font-size: 32px;
+    color: #444444;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+.news .container .Group{
+    height: 19px;
+    width: 157px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.news .container p{
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 62px;
+    font-weight: 400;
+}
+.news{
+    margin-bottom: 62px;
+    margin-top: 100px;
+}
